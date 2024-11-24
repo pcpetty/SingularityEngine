@@ -1,0 +1,71 @@
+Activating the Singularity Engine...
+Step 1: System Update and Cleanup
+sudo: a terminal is required to read the password; either use the -S option to read from standard input or configure an askpass helper
+sudo: a password is required
+sudo: a terminal is required to read the password; either use the -S option to read from standard input or configure an askpass helper
+sudo: a password is required
+Step 2: Verify Disk and Resource Status
+Filesystem      Size  Used Avail Use% Mounted on
+dev             3.9G     0  3.9G   0% /dev
+run             3.9G  1.7M  3.9G   1% /run
+/dev/sda2       112G   90G   21G  82% /
+tmpfs           3.9G   25M  3.9G   1% /dev/shm
+tmpfs           1.0M     0  1.0M   0% /run/credentials/systemd-journald.service
+tmpfs           1.0M     0  1.0M   0% /run/credentials/systemd-udev-load-credentials.service
+tmpfs           1.0M     0  1.0M   0% /run/credentials/systemd-tmpfiles-setup-dev-early.service
+tmpfs           1.0M     0  1.0M   0% /run/credentials/systemd-sysusers.service
+tmpfs           1.0M     0  1.0M   0% /run/credentials/systemd-tmpfiles-setup-dev.service
+/dev/sda2       112G   90G   21G  82% /.snapshots
+/dev/sda2       112G   90G   21G  82% /home
+tmpfs           8.0G   74M  8.0G   1% /tmp
+/dev/sda1      1022M  185M  838M  19% /boot
+/dev/sda2       112G   90G   21G  82% /var/cache/pacman/pkg
+/dev/sda2       112G   90G   21G  82% /var/log
+tmpfs           1.0M     0  1.0M   0% /run/credentials/systemd-tmpfiles-setup.service
+tmpfs           1.0M     0  1.0M   0% /run/credentials/systemd-vconsole-setup.service
+tmpfs           785M  104K  785M   1% /run/user/1000
+tmpfs           1.0M     0  1.0M   0% /run/credentials/systemd-sysctl.service
+               total        used        free      shared  buff/cache   available
+Mem:           7.7Gi       3.5Gi       744Mi       722Mi       4.4Gi       4.2Gi
+Swap:          3.8Gi       1.6Gi       2.2Gi
+usage: glances [-h] [-V] [-d] [-C CONF_FILE] [-P PLUGIN_DIR] [--modules-list]
+               [--disable-plugin DISABLE_PLUGIN]
+               [--enable-plugin ENABLE_PLUGIN] [--disable-process]
+               [--disable-webui] [--light] [-0] [-1] [-2] [-3] [-4] [-5] [-6]
+               [--disable-history] [--disable-bold] [--disable-bg]
+               [--enable-irq] [--enable-process-extended]
+               [--disable-separator] [--disable-cursor]
+               [--sort-processes {cpu_percent,memory_percent,username,cpu_times,io_counters,name}]
+               [--programs] [--export EXPORT]
+               [--export-csv-file EXPORT_CSV_FILE] [--export-csv-overwrite]
+               [--export-json-file EXPORT_JSON_FILE]
+               [--export-graph-path EXPORT_GRAPH_PATH]
+               [--export-process-filter EXPORT_PROCESS_FILTER] [-c CLIENT]
+               [-s] [--browser] [--disable-autodiscover] [-p PORT]
+               [-B BIND_ADDRESS] [--username] [--password] [-u USERNAME_USED]
+               [--snmp-community SNMP_COMMUNITY] [--snmp-port SNMP_PORT]
+               [--snmp-version SNMP_VERSION] [--snmp-user SNMP_USER]
+               [--snmp-auth SNMP_AUTH] [--snmp-force] [-t TIME] [-w]
+               [--cached-time CACHED_TIME] [--stop-after STOP_AFTER]
+               [--open-web-browser] [-q] [-f PROCESS_FILTER]
+               [--process-short-name] [--process-long-name] [--stdout STDOUT]
+               [--stdout-json STDOUT_JSON] [--stdout-csv STDOUT_CSV] [--issue]
+               [--trace-malloc] [--memory-leak] [--api-doc]
+               [--hide-kernel-threads] [-b] [--diskio-show-ramfs]
+               [--diskio-iops] [--fahrenheit] [--fs-free-space] [--sparkline]
+               [--disable-unicode] [--hide-public-info]
+               [--disable-check-update] [--strftime STRFTIME_FORMAT]
+glances: error: argument --stdout: expected one argument
+sending incremental file list
+Documents/Programming-Vault/.git/
+Documents/Programming-Vault/Learn Linux/Arch Linux Lesson - Project 1 - Singularity Engine.md
+
+sent 19,208 bytes  received 102 bytes  38,620.00 bytes/sec
+total size is 5,804,014  speedup is 300.57
+Step 4: Check System Security
+sudo: a terminal is required to read the password; either use the -S option to read from standard input or configure an askpass helper
+sudo: a password is required
+sudo: a terminal is required to read the password; either use the -S option to read from standard input or configure an askpass helper
+sudo: a password is required
+Singularity Engine Activation Complete!
+chmod: cannot access 'engine_core.sh': No such file or directory
